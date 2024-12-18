@@ -51,7 +51,7 @@ const projects: Project[] = [
 ];
 
 export function WorkPage() {
-  const [activeProject, setActiveProject] = useState<Project | null>(null);
+  const [activeProject] = useState<Project | null>(null);
   const navigate = useNavigate();
 
   const handleProjectClick = (project: Project) => {
