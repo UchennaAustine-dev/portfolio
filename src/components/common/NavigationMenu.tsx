@@ -113,7 +113,7 @@ export function NavigationMenu({
 
   return (
     <div
-      className={`fixed inset-0 bg-white dark:bg-gray-900 z-40 transition-transform duration-500 ease-in-out ${
+      className={`fixed inset-0 pt-24 bg-white dark:bg-gray-900 z-40 transition-transform duration-500 ease-in-out ${
         isMenuOpen ? "translate-x-0" : "translate-x-full"
       }`}
     >

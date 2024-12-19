@@ -163,7 +163,7 @@ export function About() {
   const navigate = useNavigate();
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-[#F5F5F5] text-[#1E1E1E] animate-fade-in">
+    <div className="relative mt-20 min-h-screen w-full overflow-hidden bg-[#F5F5F5] text-[#1E1E1E] animate-fade-in">
       {/* Top navigation elements */}
       <div className="absolute top-6 left-6 flex items-center gap-4">
         <button
